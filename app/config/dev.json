@@ -1,0 +1,23 @@
+{
+    "app": {
+        "title": "Sapp",
+        "description": "Simple System"
+    },
+
+    "domain": "s1.d",
+    "port": 8080,
+    "db": {
+        "url" : "mongodb://127.0.0.1/app5",
+        "options": {
+            "server": {
+                "socketOptions": {
+                    "keepAlive": 1
+                }
+            }
+        }
+    },
+    "gmailAcc": { 
+        "user": "",
+        "pass": ""
+    }
+}

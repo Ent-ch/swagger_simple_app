@@ -1,0 +1,22 @@
+{
+    "forgotPass": {
+        "id": "forgotPass",
+        "required": [],
+        "properties": {
+            "email": {
+                "type": "string",
+                "required": "true"
+            }
+        }
+    },
+    "resetPass": {
+        "id": "resetPass",
+        "required": [],
+        "properties": {
+            "password": {
+                "type": "string",
+                "required": "true"
+            }
+        }
+    }
+}

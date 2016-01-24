@@ -1,0 +1,33 @@
+{
+    "Profile": {
+        "id": "Profile",
+        "properties": {
+            "uid": {
+                "type": "string"
+            },
+            "email": {
+                "type": "string"
+            },
+            "displayName": {
+                "type": "string"
+            },
+            "picture": {
+                "type": "string"
+            }
+        }
+    },
+    "shortUserInfo":{
+        "id": "shortUserInfo",
+        "required": ["displayName", "uid"],
+        "properties":{
+            "uid":{
+                "type":"string"
+            },
+            "displayName":{
+                "type":"string",
+                "description": "User name"
+            }
+        }
+    }
+
+}

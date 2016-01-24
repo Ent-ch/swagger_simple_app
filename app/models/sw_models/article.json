@@ -1,0 +1,44 @@
+{
+    "Article":{
+        "id": "Article",
+        "required": ["aid", "title", "text"],
+        "properties":{
+            "aid":{
+                "type":"string",
+                "description": "Id of the article"
+            },
+            "title":{
+                "type":"string",
+                "description": "Title of the article"
+            },
+            "text":{
+                "type":"string",
+                "description": "Text of the article"
+            },
+            "orderPos":{
+                "type":"integer",
+                "description": "Position for sort"
+            },
+            "tags": {
+                "type": "array",
+                "items": {
+                     "type": "string"
+                }
+            }
+        }
+    },
+    "ArticleTitles":{
+        "id": "ArticleTitles",
+        "required": ["title"],
+        "properties":{
+            "aid":{
+                "type":"string",
+                "description": "Id of the article"
+            },
+            "title":{
+                "type":"string",
+                "description": "Title of the article"
+            }
+        }
+    }
+}

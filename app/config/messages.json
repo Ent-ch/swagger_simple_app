@@ -1,0 +1,23 @@
+{
+    "serverError": {
+         "m": "Server error",
+         "s": 500
+    },
+    "badData": {
+         "m": "badData",
+         "s": 400
+    },
+    "userNotFound": {
+         "m": "User not found",
+         "s": 404
+    },
+    "notAuth": {
+         "m": "notAuth",
+         "s": 401
+    }
+}
+
+
+
+
+
