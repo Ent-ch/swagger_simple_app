@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "",
   "license": "MIT",
-  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
@@ -12,6 +11,8 @@
     "tests"
   ],
   "dependencies": {
-    "swagger-api-client": "^1.0.4"
+    "angular": "~1.2",
+    "ng-swagger-ui": "^0.0.4",
+    "angular-route": "^1.5.0"
   }
 }
