@@ -8,11 +8,11 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "bin",
+    "src"
   ],
   "dependencies": {
-    "angular": "~1.2",
-    "ng-swagger-ui": "^0.0.4",
-    "angular-route": "^1.5.0"
+    "swagger-ui": "~2.0.24"
   }
 }

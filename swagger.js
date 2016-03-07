@@ -49,9 +49,11 @@ module.exports = function (app, swagger, applicationUrl) {
 
     swagger.addValidator(
         function validate(req, path, httpMethod) {
+            var token;
             req.user = undefined;
-            if (req.headers.authorization) {
-                var token = req.headers.authorization;
+
+            if (token = req.headers.authorization || req.query.api_key) {
+
                 var payload = undefined;
                 try {
                     payload = jwt.decode(token, configAuth.TOKEN_SECRET);

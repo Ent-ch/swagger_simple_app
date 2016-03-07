@@ -2,10 +2,8 @@ node_modules
 .idea
 .vscode
 
-public/bower_components/
-public/client/
-public/docs/index.html
+public/vendor/
+public/app/
 public/uploads/
-uploads/
 
 app/config/auth.js
