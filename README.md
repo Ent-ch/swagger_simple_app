@@ -2,8 +2,7 @@
 
 ```ssh
 npm install
-bower install
-node server.js
+npm start
 ```
 
 * link for API UI localhost:8080/vendor/swagger-ui/dist/
